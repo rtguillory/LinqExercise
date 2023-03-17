@@ -30,5 +30,10 @@ namespace LinqExercise
         {
             
         }
+
+        public override string ToString()
+        {
+            return $"{FullName}, age: {Age}, years experience: {YearsOfExperience}";
+        }
     }
 }
